@@ -1,6 +1,5 @@
 import GrandientsApp from "./components/GradientsApp"
 import GradientsHeader from "./components/GrandientsHeader"
-import Footer from "./components/Footer"
 
 function App() {
 	return (
@@ -10,7 +9,6 @@ function App() {
 				<p className="tagline">Ultime collection de plus beaux dégradés</p>
 			</GradientsHeader>
 			<GrandientsApp />
-			<Footer />
 		</div>
 	)
 }

@@ -2,6 +2,7 @@ import GradientsList from "./GradientsList"
 import GradientsSelect from "./GradientsSelect"
 import React from "react"
 import { gradients } from "../gradients"
+import Footer from "./Footer"
 
 const GradientsApp = () => {
 	const [filter, setFilter] = React.useState("all")
@@ -16,6 +17,7 @@ const GradientsApp = () => {
 					gradients={gradients}
 				/>
 			</main>
+			<Footer />
 		</>
 	)
 }
